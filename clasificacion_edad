@@ -1,0 +1,21 @@
+function par_o_imp(numero){
+    if(numero < 13){
+        return "es un niño";
+    }else if(numero>=13 && numero<18){
+        return "es adolescente"
+    }
+    else if(numero>=18 && numero<64){
+        return "es adulto"
+    }
+    else if(numero>=64){
+        return "es mayor"
+    }
+        
+        
+    }
+
+
+console.log("12 "+ par_o_imp(12))
+console.log("17 "+ par_o_imp(17))
+console.log("20 "+ par_o_imp(20))
+console.log("67 "+ par_o_imp(67))
